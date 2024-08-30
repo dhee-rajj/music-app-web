@@ -1,0 +1,19 @@
+.button-container {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+
+button {
+    border-radius: 4px;
+    padding: 10px;
+    width: max-content;
+    background: white;
+    border: 2px solid #ccc;
+    align-self: center; /* Center the button horizontally */
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.837);
+}

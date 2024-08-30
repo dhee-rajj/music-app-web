@@ -1,0 +1,70 @@
+.register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form input {
+    margin: 10px;
+    padding: 10px;
+    width: max-content;
+}
+
+.register-form button {
+    border-radius: 4px;
+    padding: 10px;
+    width: max-content;
+    align-self: center;
+    background: white;
+    border: 2px solid #ccc;
+}
+
+.register-form button:hover,
+.register-form button:active {
+    background: rgba(255, 255, 255, 0.837);
+}
+
+
+.register-positive {
+    background: white;
+    color: rgb(0, 128, 0);
+    padding: 10px;
+}
+
+.register-negative {
+    background: white;
+    color: rgb(0, 128, 0);
+}
+
+.register-verify {
+    display: flex;
+    justify-content: center;
+}
+
+.register-verify input {
+    margin: 10px;
+    padding: 10px;
+}
+
+.register-verify button, 
+.resend-button {
+    border-radius: 4px;
+    padding: 10px;
+    width: max-content;
+    align-self: center;
+    background: white;
+    border: 2px solid #ccc;
+}
+
+.register-verify button:hover, 
+.register-verify button:active,
+.resend-button:hover,
+.resend-button:active {
+    background: rgba(255, 255, 255, 0.837);
+}
