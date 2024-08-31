@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'graphql_auth',
     'django_filters',
     'corsheaders',
+    'crm',
 ]
 
 MIDDLEWARE = [

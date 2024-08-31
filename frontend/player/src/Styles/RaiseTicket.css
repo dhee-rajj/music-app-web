@@ -1,0 +1,18 @@
+form input {
+    padding: 10px;
+    margin: 10px;
+}
+
+form button {
+    border-radius: 4px;
+    padding: 10px;
+    width: max-content;
+    align-self: center;
+    background: white;
+    border: 2px solid #ccc;
+    margin: 10px;
+}
+
+form button:hover {
+    background: rgba(255, 255, 255, 0.837);
+}

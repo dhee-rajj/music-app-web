@@ -1,3 +1,10 @@
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .search-bar input {
     width: 30%;
     padding: 10px;

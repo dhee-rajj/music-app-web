@@ -5,6 +5,7 @@ import SearchTrack from "./Components/SearchTrack";
 import UserRegistration from "./Components/UserRegistration";
 import UserLogin from "./Components/UserLogin";
 import "./App.css";
+import RaiseTicket from "./Components/RaiseTicket";
 
 const client = new ApolloClient({
     uri: "http://127.0.0.1:8000/graphql/", // Update with your GraphQL endpoint
@@ -35,10 +36,12 @@ const App = () => {
                         <UserLogin onLoginSuccess={handleLoginSuccess} />
                     )
                 ) : (
-                    <>
+                    <> 
                         <SearchTrack />
                         <h1>Music List</h1>
                         <MusicList></MusicList>
+                        <h1>Raise Ticket</h1>
+                        <RaiseTicket />
                     </>
                 )}
 
