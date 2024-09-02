@@ -1,0 +1,46 @@
+/* Contract.css */
+
+.contract-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    border-radius: 4px;
+    padding: 10px;
+    width: max-content;
+    background: white;
+    border: 2px solid #ccc;
+    align-self: center; /* Center the button horizontally */
+}
+
+form button:hover {
+    background: rgba(194, 194, 194, 0.658);
+}

@@ -6,6 +6,7 @@ import UserRegistration from "./Components/UserRegistration";
 import UserLogin from "./Components/UserLogin";
 import "./App.css";
 import RaiseTicket from "./Components/RaiseTicket";
+import Contract from "./Components/Contract";
 
 const client = new ApolloClient({
     uri: "http://127.0.0.1:8000/graphql/", // Update with your GraphQL endpoint
@@ -42,6 +43,7 @@ const App = () => {
                         <MusicList></MusicList>
                         <h1>Raise Ticket</h1>
                         <RaiseTicket />
+                        <Contract />
                     </>
                 )}
 
